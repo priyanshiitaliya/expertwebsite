@@ -1,0 +1,121 @@
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading2 h3{
+    text-align: center;
+    color: rgb(17, 74, 83);
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgb(31, 100, 110);
+    margin-top: 100px;
+}
+
+
+
+
+.othercourse {
+    text-align: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 30%);
+    transition: all 0.3s linear;
+    padding: 25px 25px;
+    position: relative;
+    height: 100px;
+    width: auto;
+    margin-top: 50px;
+    
+   
+}
+
+
+.othercourse:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+
+.othercourse h3{
+    font-size: 18px;
+    color: rgb(17, 74, 83);
+    font-weight: bold;
+
+}
+
+.othercourse p{
+    font-size: 14px;
+}
+
+/* .classroom{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-color: rgb(178, 223, 230);
+    margin-top: -24px;
+} */
+ 
+
+
+
+
+  /* .heading2 h3{
+    text-align: center;
+    color: rgb(17, 74, 83);
+    font-size: 25px;
+    text-shadow: 1px 1px 3px rgb(31, 100, 110);
+    margin-top: 90px;
+  }
+
+
+.othercourse {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 30%);
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-gap:15px;
+    grid-template-columns: 350px 350px 350px 350px;
+    align-items: center;
+  }
+  
+  .grid-item2 {
+    background-color:whitesmoke;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+  }
+  
+  .grid-item2:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  .card-header2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0d0d0d;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 30px;
+    }
+  
+    .grid {
+      grid-gap: 30px;
+    }
+  }
+   */

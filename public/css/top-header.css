@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*top header*/
+
+li {
+    list-style: none;
+}
+
+.top-header {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(17, 74, 83);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+       
+}
+
+.emaildiv{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.mobilediv {
+    margin-top: 7px;
+    margin-left: 25%;
+}
+
+.top-header a {
+    color: white;
+}
+
+.icondiv {
+    margin-left: 22%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(17, 74, 83);
+}
+
+.icondiv a {
+    width: 100%;
+    padding: 10px;
+}
+
+.top-header a:hover{
+    color: rgb(122, 217, 232);
+}
+
+@media only screen and (max-width:1200px){
+    .top-header{
+        display: grid;
+        row-gap: 0px;
+        grid-template-rows: 33px 30px;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        
+    }
+    .emaildiv{
+        margin-left: 27%;
+        
+    }
+    .mobilediv{
+        margin-left: 3%;
+        width: 100%;
+      
+    }
+    .icondiv{
+        margin-left: 15%;
+        
+    }
+    .icondiv a {
+        margin: -2%;
+       
+    }
+}
+
+
+
+
+
+/* slider */
+ img {
+    /* width: 100%;
+    height: 600px; */
+    display: block;
+}
+
+.carousel-control-prev {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 275px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.carousel-control-next {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 275px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.carousel{
+    position: relative;
+    margin-top: 50px;
+}
+@media screen and (max-width:900px){
+    
+    .carousel-control-prev {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 90px;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+    
+    .carousel-control-next {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 90px;
+        background-color: transparent;
+        margin-right: 10px;
+    }
+    .carousel{
+        position: relative;
+        margin-top: 70px;
+    }
+  
+   
+}
+
+

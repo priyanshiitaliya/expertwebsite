@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.details{
+    background: rgb(17, 74, 83);
+    height: 170px;
+    width:auto;
+    display: block;
+    color: white;
+    padding-top:30px; 
+    text-align: center;
+    margin-top: 60px;
+   
+
+}
+
+
+.details i{
+    font-size: 45px;
+}
+
+.details h3{
+  padding-top: 2px;
+    font-size: 15px;
+}
+.details h2{
+    padding-top: 10px;
+      font-size: 25px;
+  }
+
+.col-xl-3{
+    padding: 0px 0px 0px 0px;
+}
+    
+
+ 

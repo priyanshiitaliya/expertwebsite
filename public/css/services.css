@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading3 h3{
+    color: rgb(17, 74, 83);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(31, 100, 110);
+    margin-top: 90px;
+
+
+}
+
+
+
+.service-box {
+    text-align: center;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 30%);
+    transition: all 0.3s linear;
+    padding: 25px 25px;
+    position: relative;
+    height: 250px;
+    width: auto;
+    /* margin-left: 150px; */
+    background-color:whitesmoke;
+    margin-top: 50px;
+}
+
+
+.service-box:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+}
+
+.service-box h3{
+    font-size: 20px;
+    color: rgb(17, 74, 83);
+    font-weight: bold;
+
+}
+
+.service-box p{
+    font-size: 17px;
+}
+
+.service-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    border-top: 5px solid rgb(17, 74, 83);
+    border-left: 5px solid rgb(69, 127, 136);
+    transition: all .3s linear;
+}
+
+.service-box:hover:before {
+    width: 30%;
+    height: 30%;
+}
+
+.service-box:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0%;
+    border-right: 5px solid rgb(17, 74, 83);
+    border-bottom: 5px solid rgb(17, 74, 83);
+    transition: all .3s linear;
+}
+
+.service-box:hover:after {
+    width: 30%;
+    height: 30%;
+}
+
+.service-box span.icon {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    background-color: right;
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: 2px solid transparent;
+    transition: all .4s linear;
+    font-size: 50px;
+    left:-10px;
+}
+
+.service-box:hover span.icon {
+    top: -60px
+}
+
+.classroom{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-color: rgb(178, 223, 230);
+    margin-top: -24px;
+}
+ .classroom img{
+    height:80px;
+    width: 65px;
+    margin-left: 18px; 
+    padding-top:20px ;
+    padding-bottom: -50px;
+}
+ @media screen and (max-width:500px){
+    .service-box{
+        margin-top: 50px;
+    }
+    .container-fluid{
+        margin-top: 0;
+    }
+} 

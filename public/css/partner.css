@@ -1,0 +1,84 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .partner1 .container h2{
+    margin-top: 120px;
+	color: rgb(17, 74, 83);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(31, 100, 110);
+}
+.partner2 .container h2{
+    margin-top: 10px;
+	color: rgb(17, 74, 83);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(31, 100, 110);
+}
+
+.slick-slide{
+    margin: 50px 30px;
+    margin-bottom: 90px;
+}
+.slick-slide img{
+    width: 100%;
+    height:80px;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+
+@media screen and (max-width:900px){
+    .slick-slide img{
+        width: 200%;
+        height:50px;
+    }
+    .partner1 .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+}
+.partner2 .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+}
+    
+}
+
+
+
+
